@@ -12,17 +12,17 @@ function ComingSoon() {
 
       <section className="tt-hero" aria-label="TopoTech próximamente">
         <div className="tt-composition">
-          <div className="tt-logo-wrap">
-            <div className="tt-logo-glow" aria-hidden="true" />
+          <div className="tt-brand">
             <img
-              className="tt-logo"
-              src="/topotech-logo.png"
-              alt="TopoTech"
-              width={1024}
-              height={1024}
+              className="tt-mark"
+              src="/topo-mark.png"
+              alt=""
+              width={960}
+              height={510}
               decoding="async"
               fetchPriority="high"
             />
+            <p className="tt-word">TopoTech</p>
           </div>
 
           <div className="tt-copy">
