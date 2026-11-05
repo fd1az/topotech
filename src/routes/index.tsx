@@ -26,15 +26,11 @@ function ComingSoon() {
           </div>
 
           <div className="tt-copy">
-            <p className="tt-status">coming soon // boot seq</p>
             <h1 className="tt-headline">
               Pronto salimos a la superficie
               <span className="tt-cursor" aria-hidden="true" />
             </h1>
-            <p className="tt-support">
-              TopoTech está gestando algo nuevo bajo tierra. Dejanos tu interés
-              y te avisamos cuando asome.
-            </p>
+            <p className="tt-support">&gt; algo nuevo, bajo tierra.</p>
           </div>
 
           <div className="tt-cta">
@@ -43,9 +39,6 @@ function ComingSoon() {
               href="mailto:hola@topotech.site?subject=Avisame%20cuando%20TopoTech%20salga"
             >
               Avisame
-            </a>
-            <a className="tt-btn tt-btn-ghost" href="mailto:hola@topotech.site">
-              Escribinos
             </a>
           </div>
         </div>
