@@ -7,6 +7,8 @@ function ComingSoon() {
     <main className="tt-page">
       <div className="tt-ambience" aria-hidden="true" />
       <div className="tt-noise" aria-hidden="true" />
+      <div className="tt-scanlines" aria-hidden="true" />
+      <div className="tt-scan-beam" aria-hidden="true" />
 
       <section className="tt-hero" aria-label="TopoTech próximamente">
         <div className="tt-composition">
@@ -24,7 +26,11 @@ function ComingSoon() {
           </div>
 
           <div className="tt-copy">
-            <h1 className="tt-headline">Pronto salimos a la superficie</h1>
+            <p className="tt-status">coming soon // boot seq</p>
+            <h1 className="tt-headline">
+              Pronto salimos a la superficie
+              <span className="tt-cursor" aria-hidden="true" />
+            </h1>
             <p className="tt-support">
               TopoTech está gestando algo nuevo bajo tierra. Dejanos tu interés
               y te avisamos cuando asome.
@@ -32,7 +38,10 @@ function ComingSoon() {
           </div>
 
           <div className="tt-cta">
-            <a className="tt-btn tt-btn-primary" href="mailto:hola@topotech.site?subject=Avisame%20cuando%20TopoTech%20salga">
+            <a
+              className="tt-btn tt-btn-primary"
+              href="mailto:hola@topotech.site?subject=Avisame%20cuando%20TopoTech%20salga"
+            >
               Avisame
             </a>
             <a className="tt-btn tt-btn-ghost" href="mailto:hola@topotech.site">
